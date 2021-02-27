@@ -65,3 +65,9 @@ Then you'll have to come up with something interesting to do with the data. Here
 - Utiliser au moins une API HTML5 (exemple la localisation du navigateur)
 - Validation des champs des éventuelles formulaires côté clientpar exemple sur le formulaire de contact si l'email est
   incorrect, le signaler et empêcher la soumission du formulaire.
+  
+## Organization of the project
+
+Thibaut michael and arnaud took care of the data processing part.
+
+Diane did the integration of the data processing requests into the server she developed.
