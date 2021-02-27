@@ -2,6 +2,8 @@
 
 # Project covid machin
 
+![](./assets/PlagueIncGo.png)
+
 ## Consignes backend
 
 The project involves using data from a public database of disease data, see Santé public France. A couple of interesting
