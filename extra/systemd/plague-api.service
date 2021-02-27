@@ -1,0 +1,12 @@
+[Unit]
+Description=Plague Inc Co. API server
+After=network.target
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/node src/project.js --serve
+WorkingDirectory=%h/api
+EnvironmentFile=%h/.config/plague.conf
+
+[Install]
+WantedBy=multi-user.target

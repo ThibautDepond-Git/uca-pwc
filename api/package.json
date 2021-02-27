@@ -1,0 +1,24 @@
+{
+	"name": "project",
+	"version": "1.0.0",
+	"license": "AGPL-3.0",
+	"main": "src/project.js",
+	"dependencies": {
+		"argparse": "^2.0.1",
+		"csv-parse": "^4.15.1",
+		"fastify": "^3.11.0",
+		"fastify-cors": "^5.2.0",
+		"iconv-lite": "^0.6.2",
+		"mongoose": "^5.11.14"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	},
+	"scripts": {
+		"watch": "nodemon src/project.js --serve",
+		"start": "node src/project.js --serve",
+		"purge": "node src/project.js --purge",
+		"import": "node src/project.js --import data/data.csv"
+	},
+	"type": "module"
+}

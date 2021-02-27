@@ -1,0 +1,46 @@
+{
+	"name": "web",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@craco/craco": "^6.1.1",
+		"@formcarry/react": "^1.0.2",
+		"@tailwindcss/postcss7-compat": "^2.0.3",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"autoprefixer": "^9",
+		"date-fns": "^2.17.0",
+		"postcss": "^7",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.1",
+		"react-vis": "^1.11.7",
+		"tailwindcss": "npm:@tailwindcss/postcss7-compat"
+	},
+	"scripts": {
+		"start": "REACT_APP_API_URL=http://localhost:8080/api craco start",
+		"build": "REACT_APP_API_URL=/api craco build",
+		"test": "craco test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

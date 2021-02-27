@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+	@apply text-lg my-1 p-2 border-2 border-purple-300 rounded;
+}
+
+.card {
+	max-height: 50vh;
+	@apply overflow-y-scroll;
+}
+
+:not(html.dark) * {
+	background-color: white;
+	color: black;
+	border-color: #e5e7eb;
+}
+html.dark * {
+	background-color: #3a3a48;
+	color: white;
+	border-color: #a6a6a5;
+}
+
+header.nav, header.nav *, button.action {
+	@apply bg-purple-500 text-white;
+}
