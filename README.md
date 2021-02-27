@@ -66,7 +66,7 @@ Then you'll have to come up with something interesting to do with the data. Here
 - Validation des champs des éventuelles formulaires côté clientpar exemple sur le formulaire de contact si l'email est
   incorrect, le signaler et empêcher la soumission du formulaire.
   
-## Organization of the project
+### Organization of the project (server side)
 
 Thibaut michael and arnaud took care of the data processing part.
 
